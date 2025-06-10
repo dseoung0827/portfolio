@@ -1,0 +1,14 @@
+.promotion {
+    display: flex;justify-content: center; align-items: center; background: #906da4;
+}
+
+.promotion_box{ 
+    width: 1920px;height: 11300px;
+     /* 이미지 높이 지정 필수! */
+    background-image: url('../gs25_promotion.jpg'); /* 현재 promotion_gs25_dsign.html과 같은 폴더에 있다면 */
+    background-size: cover; /* 이미지가 div를 꽉 채우도록 */
+    background-position: center; /* 가운데 정렬 */
+
+ 
+    
+  }
