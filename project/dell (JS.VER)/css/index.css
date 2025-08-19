@@ -27,14 +27,16 @@ header {
 
 .main_banner { 
   position: relative; width: 100%;
-  background: url('../images/main_banner_img.png') no-repeat 50% 50%; background-size: cover;
+  background: url('../images/main_banner_img.png') no-repeat 50% 50%; background-size: cover; 
+
 }
 
-.contents_img_text_wrap { padding: 300px 0; text-align: center; color: #FFF; }
+.contents_img_text_wrap { padding: 300px 0; text-align: center; color: #FFF;   
+ background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 100%);}
 
 .main_img_title_box { 
   max-width: 100%; margin-bottom: 20px; 
-  display: flex; flex-direction: column; align-items: center;gap: 25px;
+  display: flex; flex-direction: column; align-items: center;gap: 25px; margin-top: -70px;
 }
 .main_img_title_box .contents_title_xxlarge_en span { font-size: 98px; }
 .main_banner .btn { margin-top: 110px; } 
@@ -132,6 +134,20 @@ header {
   background-image: url("../images/geadient_banner_img.png"); background-repeat: no-repeat; background-size: 50% 50% cover; 
 }
 
+@media (max-width: 1600px) {
+  .apex .apex_contents{ height: 700px; }
+}
+
+/* 1400px 이하 */
+@media (max-width: 1400px) {
+  .apex .apex_contents{ height: 600px; }
+}
+
+/* 1280px 이하 */
+@media (max-width: 1280px) {
+  .apex .apex_contents{ height: 500px; }
+}
+
 .btn_icon_apex:hover { color: #FFF; background: #d4d4d4;  transition:0.3s;}
 
 .apex_contents{ position: relative;  display: flex; flex-direction: column; gap: 40px; 
@@ -140,6 +156,20 @@ header {
 .title_box{ display: flex; flex-direction: column; gap:8px ; }
 .apex_text_box {  display: flex; flex-direction: column; gap:32px}
 .main_text_wrap{ display: flex; flex-direction: column; gap: 80px;}
+@media (max-width: 1600px) {
+  .main_text_wrap{ height: 700px; }
+}
+
+/* 1400px 이하 */
+@media (max-width: 1400px) {
+  .main_text_wrap{ height: 600px; }
+}
+
+/* 1280px 이하 */
+@media (max-width: 1280px) {
+  .main_text_wrap{ height: 500px; }
+}
+
 
 .apex_box{
 display: flex;gap:80px; align-items: center; 
